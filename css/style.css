@@ -8,6 +8,10 @@
 
 }
 
+body {
+    color:var(--white);
+}
+
 header, .bottom-footer {
     background-color: var(--dark-gray);
 }
