@@ -24,6 +24,10 @@ header, .bottom-footer {
     background-color: var(--dark-gray);
 }
 
+main {
+    margin-top:70px;
+}
+
 #hero, #about-us {
     background-color: var(--aqua);
 }
