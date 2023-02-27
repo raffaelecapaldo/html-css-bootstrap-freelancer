@@ -1,41 +1,53 @@
-:root{
+:root {
     /* Color styles */
---dark-gray: #2C3E50;
---aqua: #1ABC9C;
---white: #FFFFFF;
---light-gray: #3A546D;
---black: #333333;
+    --dark-gray: #2C3E50;
+    --aqua: #1ABC9C;
+    --white: #FFFFFF;
+    --light-gray: #3A546D;
+    --black: #333333;
 
 }
 
 body {
-    color:var(--white);
+    color: var(--white);
 }
 
 nav {
-    position:fixed;
+    position: fixed;
     width: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     background-color: var(--dark-gray);
 }
 
-header, .bottom-footer {
+header,
+.bottom-footer {
     background-color: var(--dark-gray);
 }
 
 main {
-    margin-top:70px;
+    margin-top: 70px;
 }
 
-#hero, #about-us {
+#hero,
+#about-us {
     background-color: var(--aqua);
 }
 
-#portfolio, #contact {
+#portfolio,
+#contact {
     background-color: var(--white);
 }
 
 .top-footer {
     background-color: var(--light-gray);
+}
+
+.heroimage {
+    width: 500px;
+}
+
+.line {
+    width: 60px;
+    height: 4px;
 }
